@@ -1,0 +1,529 @@
+/* Reset CSS -------------------- */
+
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Clearfix -------------------- */
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Base -------------------- */
+html,body {
+	min-height: 100%;
+}
+
+body {
+	background-color: #fff;
+	color: #000;
+	margin: 0 auto;
+	font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+/*.wrapper {
+	width: 1440px;
+	margin: 0 auto;
+}*/
+
+
+/* Navigation -------------------- */
+
+.nav {
+/*
+	right: 10px;
+	top: 20px;
+*/
+	display: inline-block;
+	margin: 0;
+	margin-top: 40px;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+/* 	background: rgba(0, 0, 0, 0.6); */
+	text-align: center;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a {
+	padding: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: 2px;
+}
+
+.nav img {
+	width: 160px;
+}
+
+.nav a:link {
+	color: #fff;
+}
+
+.nav a:hover {
+	color: yellow;
+}
+
+.nav a:visited {
+	color: #fff;
+}
+
+.nav h1, h2 {
+	color: #fff;
+}
+
+
+
+/* Header -------------------- */
+
+#header {
+	background:
+	linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 1)
+    ),
+	#fff url('images/food-2.jpg') no-repeat center 80%;
+	background-size: cover;
+/* 	background-attachment: fixed; */
+	height: 850px;
+	padding: 0;
+	border-bottom: 3px solid #fff;
+	color: #fff;
+	position: relative;
+}
+
+#header .content {
+	text-align: center;
+	margin: 0 auto;
+	width: 900px;
+}
+
+#header h1 {
+	color: white;
+	font-family: 'Libre Baskerville', serif;
+/* 	font-family: 'niconne', serif; */
+/* 	font-family: 'Montserrat', serif; */
+	font-size: 6.6em;
+	font-weight: lighter;
+/* 	text-transform: uppercase; */
+	text-align: center;
+	padding-top: 260px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+}
+
+#header h4 {
+	color: white;
+	font-size: 2em;
+	font-weight: normal;
+	letter-spacing: 1.1em;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 0 0 1.1em; /* compensates for the extra spacing */
+}
+
+#header h3 {
+	font-size: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	line-height: 1.5em;
+/* 	border-top: 1px solid #fff; */
+	width: 700px;
+	margin: 0 auto;
+}
+
+#header h1:after {
+	content: " ";
+	display: block;
+	border-top: 3px solid white;
+	width: 200px;
+	margin: 30px auto 10px auto;
+}
+
+#header .btn {
+	color: yellow;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	font-weight: bold;
+	border: 2px solid yellow;
+	padding: 20px 24px;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 100px;
+}
+
+
+/* Areas -------------------- */
+
+.area-1 {
+	height: 1200px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.area-1 h1,
+.area-3 h1 {
+	font-family: 'libre baskerville', sans-serif;
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.area-2 {
+	height: 600px;
+	margin: 0 auto;
+	background:
+		linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+		),
+	#fff url('images/booth-image-5.jpg') no-repeat top;
+	background-size: cover;
+}
+
+.area-2 h1 {
+	font-family: 'libre baskerville', sans-serif;
+	color: white;
+	font-size: 4em;
+	font-weight: lighter;
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 40px;
+	
+}
+
+.left-col h2 {
+	font-family: 'montserrat', sans-serif;	
+	margin: 0 auto;
+	text-align: center;
+	color: yellow;
+	font-size: 2.8em;
+}
+
+.left-col p {
+	font-family: 'montserrat', sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 2em;
+	color: yellow;
+	padding-top: 20px;
+}
+
+.right-col h2 {
+	font-family: 'montserrat', sans-serif;	
+	margin: 0 auto;
+	text-align: center;
+	color: yellow;
+	font-size: 2em;
+	padding-top: 10px;
+}
+
+.right-col p {
+	font-family: 'montserrat', sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.2em;
+	color: yellow;
+	padding-top: 20px;
+	line-height: 1.2em;
+}
+
+.box-limit {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.box{
+	border: 3px solid yellow;
+	width: 300px;
+	height: 160px;
+	padding: 20px;
+/* 	margin: 0 auto; */
+	padding-top: 20px;
+}
+
+.left-col,
+.right-col {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  position: relative;
+  overflow: hidden;
+  margin: 8px 10px 16px 10px;
+}
+
+.right-col {
+	float:right;
+}
+
+
+.area-3 {
+	height: 800px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.area-3 p {
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* Masonry -------------------- */
+
+
+.item { 
+	width: 100%; 
+	float: right;
+}
+/* .item.w2 { width: 20%; } */
+
+.item {
+	padding: 2px;
+}
+
+.item img {
+	width: 300px;
+	border-radius: 5px;
+}
+
+
+/* Image Cards -------------------- */
+
+[card] {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  position: relative;
+  overflow: hidden;
+  margin: 8px 10px 16px 10px;
+  background: #FFF;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: #272727;
+  border-radius: 2px;
+  min-height: 480px;
+}
+
+[card]:nth-child(odd) {
+	float:right;
+}
+
+
+[card] .title {
+  line-height: 48px;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2em;
+  width: 75%;
+}
+
+[card] .content {
+  padding: 20px;
+  font-weight: 300;
+  border-radius: 0 0 2px 2px;
+}
+
+[card] p {
+	padding-top: 10px;
+  margin: 0;
+  line-height: 1.4em;
+}
+
+[card] .action {
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  padding: 20px;
+}
+
+[card] a {
+  color: #ffab40;
+  margin-right: 20px;
+  -webkit-transition: color 0.3s ease;
+          transition: color 0.3s ease;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+[card] .image {
+  position: relative;
+}
+
+[card] .image img {
+	
+  border-radius: 2px 2px 0 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display:block;
+}
+
+[card] .image .title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  color: #FFF;
+}
+
+
+
+
+
+
+/* Gallery -------------------- */
+
+#thumbnails {
+	margin: 0 auto;
+}
+
+#thumbnails article {
+	width: 33.3333%;
+	float: left;
+	height: 580px;
+}
+
+#thumbnails article img {
+	background: #fff;
+	height: 100%;
+	width: auto;
+}
+
+#thumbnails a {
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+	background-color: #252728;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	border-right: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+}
+
+#thumbnails article h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	margin-top: 250px;
+}
+
+/*#thumbnails a:nth-child(4n) {
+	clear: left;
+}*/
+
+
+/* Clearfix
+=====================*/
+
+.group::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+
+
+/* Media Queries -------------------- */
+
+
+@media only screen and (max-width: 1736px) {
+
+#thumbnails article {
+	width: 50%;
+}
+
+}
+
+
+@media only screen and (max-width: 900px) {
+
+#header .content {
+	text-align: center;
+	margin: 0 auto;
+	width: 70%;
+}
+
+/*
+#header h1 {
+	font-size: 3em;
+}
+*/
+
+#thumbnails article {
+	height: 300px;
+}
+
+#thumbnails article h1 {
+	font-size: 2.4em;
+	margin-top: 140px;
+}
+
+}
+
+
+@media only screen and (max-width: 752px) {
+
+#thumbnails article {
+	height: 220px;
+}
+
+#thumbnails article h1 {
+	font-size: 1.6em;
+	margin-top: 100px;
+}
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+#header {
+	height: 660px;
+}
+
+#thumbnails article {
+	height: 200px;
+	width: 100%;
+}
+
+#thumbnails article h1 {
+	font-size: 1.6em;
+	margin-top: 100px;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+#header {
+	height: 660px;
+}
+
+}
